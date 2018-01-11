@@ -1,0 +1,10 @@
+
+{% extends 'base.html' %}
+
+{% block page_content %}
+    {% for bbs_list in bbs_lists %}
+        <h4><a href="#">{{ bbs_list.title }}</a></h4>
+        <h5>{{ bbs_list.summary}}</h5>
+        <hr>
+    {% endfor %}
+{% endblock %}

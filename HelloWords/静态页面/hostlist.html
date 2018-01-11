@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>用户名</td>
+                <td>邮箱</td>
+            </tr>
+        </thead>
+        <tbody>
+            (% for row in xxxx %)
+            <tr>
+                <td>{{row.id}}</td>
+                <td>{{row.name}}</td>
+                <td>{{row.email}}</td>
+            </tr>
+            (% endfor %)
+        </tbody>
+    </table>
+</body>
+</html>
