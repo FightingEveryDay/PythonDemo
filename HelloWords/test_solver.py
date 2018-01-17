@@ -12,6 +12,9 @@ class TestSolver(unittest.TestCase):
 
         self.assertRaises(True, False)
 
-if __name__ == 'main':
 
+
+if __name__ == '__main__':
     unittest.main()
+
+
